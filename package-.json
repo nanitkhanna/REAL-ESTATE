@@ -1,0 +1,20 @@
+{
+  "name": "real-estate-recommendation",
+  "version": "1.0.0",
+  "description": "Real Estate Recommendation System",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "body-parser": "^1.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "@tensorflow/tfjs-node": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

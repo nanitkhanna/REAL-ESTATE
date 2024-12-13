@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - PropertyPro</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">PropertyPro</a>
+            <div class="nav-links">
+                <a href="property-listing.html">Properties</a>
+                <a href="#" id="logout">Logout</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="dashboard">
+            <h1>Welcome, <span id="user-name"></span></h1>
+            <div class="recommendations">
+                <h2>Recommended Properties</h2>
+                <div id="recommended-properties">
+                    <!-- Recommended properties will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/recommendations.js"></script>
+</body>
+</html>
